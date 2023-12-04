@@ -12,8 +12,6 @@ The website allows users to interact with their bank account through the followi
 
 - View account details
 - Retrieve transaction history
-- Perform fund transfers
-- And more...
 
 ## Getting Started
 
