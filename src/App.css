@@ -1,0 +1,117 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+.square {
+  height: auto;
+  width: auto;
+  background-color: #ff7a64;
+  padding: 10px;
+  text-align: center;
+  border-radius: 16px;
+  
+ 
+}
+.square:hover{
+
+  filter: drop-shadow(0 0 2em #e43131aa);
+}
+.transactionSquare{
+  height: auto;
+  width: auto;
+  background-color: #ff7a64;
+  padding: 10px;
+  text-align: left;
+  border-radius: 16px;
+ 
+  
+}
+
+.bannerYellow{
+
+  height: auto;
+  width: 50%;
+  background-color: #ff7a64;
+  padding: 10px;
+
+
+  position: relative;
+ 
+  
+}
+.bannerYellow img{
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.transactionSquare:hover{
+  filter: drop-shadow(0 0 2em #e43131aa);
+
+}
+.MainSquare {
+  height: auto;
+  width: auto;
+  background-color: #ff7a64;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 16px;
+  position: relative;
+}
+
+.transactions{
+  height: auto;
+  width: 50%;
+  background-color: #ff7a64;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 16px;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+.infoTile{
+  display: flex;
+  flex-direction: row;
+  
+
+}
+
+.dateBox{
+
+  height: 60px;
+  width: 60px;
+  background-color: #ff7a64;
+  padding: 10px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border-radius: 16px;
+}
+.dateBox:hover{
+  filter: drop-shadow(0 0 2em #e43131aa);
+
+}
+.logo {
+  height: 100px;
+  width: 170px;
+  background-color: #ff7a64;
+  padding: 10px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-radius: 16px;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #e43131aa);
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
